@@ -9,6 +9,7 @@ function AddTodo({onCreate}){
 
         if (value.trim()){
             onCreate(value)
+            setValue(' ')
         }
     }
 

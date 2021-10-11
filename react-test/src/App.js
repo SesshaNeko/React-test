@@ -45,7 +45,7 @@ function App() {
 
         <AddTodo onCreate={addTodo}/>
 
-        {todos.length ? <TodoList todos={todos} onToggle={toggleTodo}></TodoList> : <p>NO TODOS!</p>}
+        {todos.length ? (<TodoList todos={todos} onToggle={toggleTodo}></TodoList>) : (<p>NO TODOS!</p>)}
 
         
       </div>  
