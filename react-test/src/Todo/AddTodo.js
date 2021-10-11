@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import PropTypes from 'prop-types'
 
-function AddTodo({onCreate}){
+function AddTodo({onCreate} ){
     const [value, setValue]=useState('')
 
     function submitHandler(event){
